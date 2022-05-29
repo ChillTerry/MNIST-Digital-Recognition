@@ -16,8 +16,8 @@ class TrainLeNet:
         @param test_file_path 测试集保存路径
         """
         self.onehot = OneHotEncoder()
-        self.train_file_path = r'F:\Democray\PythonFiles\Digital-Recognition\dataset\csv\mnist_train.csv'
-        self.test_file_path = r'F:\Democray\PythonFiles\Digital-Recognition\dataset\csv\mnist_test.csv'
+        self.train_file_path = './dataset/csv/mnist_train_200.csv'
+        self.test_file_path = './dataset/csv/mnist_test_70.csv'
 
 
     def LeNet(self):

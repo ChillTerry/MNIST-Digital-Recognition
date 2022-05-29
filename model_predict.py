@@ -8,10 +8,10 @@ def predict():
     使用训练好的model对数据集进行预测
     检验model的准确性
     """
-    model = tf.keras.models.load_model('./mnist_LeNet_model.h5')
+    model = tf.keras.models.load_model('./model/mnist_LeNet_model.h5')
     print(model.summary())
     # 加载数据集
-    file_path = r'F:\Democray\PythonFiles\Digital-Recognition\dataset\csv\mnist_test.csv'
+    file_path = './dataset/csv/mnist_test_70.csv'
     with open(file_path,encoding = 'utf-8') as f:
         predict_data = np.loadtxt(f,delimiter = ",")
         predict_img = predict_data[5,1:]
