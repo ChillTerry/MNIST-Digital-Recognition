@@ -7,8 +7,8 @@ This script is used to convert the raw MNIST dataset into csv formate.
 ![image](https://user-images.githubusercontent.com/64240681/170854795-5e9c601d-bbf8-4af5-bb60-8e7986b80bef.png)
 
 ## train_model.py
-In this script i build a LeNet-5 nearual network and generate the `mnist_LeNet_model.h5` 
-The model is good which i just train it 30 epochs but get 99% accuracy
+In this script i build a LeNet-5 nearual network and generate the `mnist_LeNet_model.h5`.
+The model runs well which i just train it 30 epochs but get 99% accuracy
 
 ![acc_curve](https://user-images.githubusercontent.com/64240681/170854856-78a61f1b-56a0-4b54-b17d-4a2eb825f21e.jpg)
 
